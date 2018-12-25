@@ -17,6 +17,7 @@ const MovieShema = new  Schema({
     country: {
         type: String,
         maxlength: 30,
+        required: true,
         minlength: 1,
     },
     year: {
